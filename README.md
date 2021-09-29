@@ -34,4 +34,4 @@ Kaboom!
 
 # <p style="text-align: center;">**GAMEPLAY PREVIEW VIDEO**</p>
 
-[![Everything Is AWESOME](https://cdn.discordapp.com/attachments/570007120691462144/892907330423902249/unknown.png)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+[![EggsPickerVideo](https://cdn.discordapp.com/attachments/570007120691462144/892907330423902249/unknown.png)](https://www.youtube.com/watch?v=V3jYQRqa7QU "EggsPickerVideo")
