@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
     public void StartGame() {
         SceneManager.LoadScene("_Scene_0");
     }

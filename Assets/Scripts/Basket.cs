@@ -15,7 +15,6 @@ public class Basket : MonoBehaviour
         scoreGT = scoreGO.GetComponent<Text>();
         scoreGT.text = "0";
     }
-    // Update is called once per frame
     void Update()
     {
         Vector3 mousePos2D = Input.mousePosition;
@@ -40,17 +39,17 @@ public class Basket : MonoBehaviour
 
             if (score == 1000 && AppleTree.complexity == 0) {
                 AppleTree.complexity++;
-            } else if (score == 2000 && AppleTree.complexity == 1) {
+            } else if (score == 3000 && AppleTree.complexity == 1) {
                 AppleTree.complexity++;
-            } else if (score == 3500 && AppleTree.complexity == 2) {
+            } else if (score == 6000 && AppleTree.complexity == 2) {
                 AppleTree.complexity++;
-            } else if (score == 6000 && AppleTree.complexity == 3) {
+            } else if (score == 10000 && AppleTree.complexity == 3) {
                 AppleTree.complexity++;
-            } else if (score == 10000 && AppleTree.complexity == 4) {
+            } else if (score == 20000 && AppleTree.complexity == 4) {
                 AppleTree.complexity++;
             }
 
-                if (score > HighScore.score) {
+            if (score > HighScore.score) {
                 HighScore.score = score;
             }
         }
