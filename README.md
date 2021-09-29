@@ -2,9 +2,7 @@
 
 ###### <p style="text-align: right;">made with Unity3d<p>
 
-|||||||
-|-|-|-|-|-|-|
-||||![Preview](https://media2.giphy.com/media/I3tMa8w1sCpWjIQcUC/giphy.gif?cid=790b7611d7b4bd727690adedc04c03fe3fcfd71747d3ae46&rid=giphy.gif&ct=g)
+![Preview](https://media2.giphy.com/media/I3tMa8w1sCpWjIQcUC/giphy.gif?cid=790b7611d7b4bd727690adedc04c03fe3fcfd71747d3ae46&rid=giphy.gif&ct=g)
 
 ## **ENG**
 
