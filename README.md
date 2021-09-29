@@ -12,6 +12,7 @@ Kaboom!
 
 + The main menu and the round end menu are decorated.
 + It is possible to resume the game after defeat.
++ High score saver.
 + Several difficulty levels that change on a certain number of points.
 + Eye-pleasing appearance and the easiest control.
 + The ability to exit the game at any time.
@@ -26,6 +27,7 @@ Kaboom!
 
 + Оформлены главное меню и меню окончания раунда. 
 + Есть возможность возобновить игру после поражения.
++ Сохранение лучшего результата.
 + Несколько уровней сложности, которые меняются на определенном количестве очков.
 + Приятный для глаза внешний вид и легчайшее управление.
 + Возможность выйти из игры в любой момент.
