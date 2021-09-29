@@ -5,11 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    public void QuitGame()
+    public static void QuitStartMenu()
+    {
+        Cursor.visible = true;
+        SceneManager.LoadScene("Start");
+    }
+    public static void QuitGame()
     {
         Application.Quit();
     }
-    public void StartGame() {
+    public static void StartGame()
+    {
+        Cursor.visible = false;
         SceneManager.LoadScene("_Scene_0");
+    }
+
+    public static void FinishGame()
+    {
+        Cursor.visible = true;
+        SceneManager.LoadScene("Finish");
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape)) QuitStartMenu();
     }
 }
