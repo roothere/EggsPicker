@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6952665811666636234}
   - component: {fileID: 8452440062180327466}
   m_Layer: 8
-  m_Name: AppleTree
+  m_Name: Chicken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

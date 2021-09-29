@@ -21,6 +21,7 @@ public class AppleTree : MonoBehaviour
 
     void DropApple() {
         GameObject apple = Instantiate<GameObject>(applePrefab);
+        apple.transform.rotation = Quaternion.Euler(0, 0, Random.Range(-1, 2) * 45);
         apple.transform.position = transform.position;
         Invoke("DropApple", secondsBetweenAppleDrops[complexity]);
     }

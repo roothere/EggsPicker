@@ -8,6 +8,7 @@ public class Apple : MonoBehaviour
     
     void Update()
     {
+
         if (transform.position.y < bottomY) {
             Destroy(this.gameObject);
 
